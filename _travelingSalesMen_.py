@@ -57,7 +57,6 @@ def generateRandomPath(coordinates):
     random.shuffle(path)
     return path
 
-# at some point may want to recreate these two functions with your own.
 def createRandomPairs(size,shuffle=random.shuffle):
     x=range(size)
     y=range(size)
